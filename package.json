@@ -1,0 +1,42 @@
+{
+  "name": "ops-backend-platform-info",
+  "version": "0.0.1",
+  "description": "Evnt Ops microservice for gathering platform topology",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -r dist/* && npx gulp && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Teooh/ops-backend-platform-info.git"
+  },
+  "author": "Steve Wright (steve@teooh.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teooh/ops-backend-platform-info/issues"
+  },
+  "homepage": "https://github.com/Teooh/ops-backend-platform-info#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/bluebird": "^3.5.33",
+    "@types/node": "^14.14.11",
+    "@types/validator": "^13.1.1",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.22.3",
+    "sequelize-typescript": "^1.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.804.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  }
+}
